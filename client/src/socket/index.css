@@ -1,0 +1,18 @@
+.chat-box {
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .chat-box {
+    padding: 0.5rem;
+  }
+
+  input, button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
